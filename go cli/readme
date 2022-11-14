@@ -1,0 +1,14 @@
+root@go cli# docker build -t priyankass99/hello:velotio .
+Successfully built 3dbec91de887
+Successfully tagged priyankass99/hello:velotio
+
+root@go cli# docker run priyankass99/hello:velotio
+Hello World!!!
+
+root@go cli# docker run priyankass99/hello:velotio --input "piyu"
+piyu
+
+root@go cli# docker run priyankass99/hello:velotio --input 'Welcome to Velotio!!!'
+Welcome to Velotio!!!
+
+root@go-cli# docker push priyankass99/hello:velotio
